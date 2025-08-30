@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-pinecone
+langchain-community
+pinecone-client>=3.0.0
+openai
+python-dotenv
+pypdf
+unstructured
+tiktoken
+prometheus-client

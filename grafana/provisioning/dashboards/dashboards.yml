@@ -1,0 +1,12 @@
+# For Grafana to autoload configuration files, they must be placed in the 
+# appropriate provisioning directories. We can use the yaml config below:
+
+apiVersion: 1
+
+providers:
+  - name: 'streamlit-monitoring'
+    folder: ''
+    type: file
+    options:
+      path: /etc/grafana/provisioning/dashboards
+      updateIntervalSeconds: 10

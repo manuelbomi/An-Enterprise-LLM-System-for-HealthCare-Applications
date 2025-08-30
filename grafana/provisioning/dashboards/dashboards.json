@@ -1,0 +1,95 @@
+{
+  "id": null,
+  "uid": "streamlit-dashboard",
+  "title": "📊 Streamlit App Metrics",
+  "timezone": "browser",
+  "schemaVersion": 37,
+  "version": 2,
+  "refresh": "5s",
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Total Queries",
+      "gridPos": { "x": 0, "y": 0, "w": 6, "h": 4 },
+      "id": 1,
+      "datasource": "Prometheus",
+      "targets": [{ "expr": "total_queries", "refId": "A" }],
+      "options": {
+        "reduceOptions": { "calcs": ["last"], "fields": "", "values": false },
+        "orientation": "horizontal",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "center"
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Total Uploads",
+      "gridPos": { "x": 6, "y": 0, "w": 6, "h": 4 },
+      "id": 2,
+      "datasource": "Prometheus",
+      "targets": [{ "expr": "total_uploads", "refId": "A" }],
+      "options": {
+        "reduceOptions": { "calcs": ["last"], "fields": "", "values": false },
+        "orientation": "horizontal",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "center"
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Upload Failures",
+      "gridPos": { "x": 0, "y": 4, "w": 6, "h": 4 },
+      "id": 3,
+      "datasource": "Prometheus",
+      "targets": [{ "expr": "upload_failures_total", "refId": "A" }],
+      "options": {
+        "reduceOptions": { "calcs": ["last"], "fields": "", "values": false },
+        "orientation": "horizontal",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "center"
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Query Failures",
+      "gridPos": { "x": 6, "y": 4, "w": 6, "h": 4 },
+      "id": 4,
+      "datasource": "Prometheus",
+      "targets": [{ "expr": "query_failures_total", "refId": "A" }],
+      "options": {
+        "reduceOptions": { "calcs": ["last"], "fields": "", "values": false },
+        "orientation": "horizontal",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "center"
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Upload Latency Over Time",
+      "gridPos": { "x": 0, "y": 8, "w": 12, "h": 8 },
+      "id": 5,
+      "datasource": "Prometheus",
+      "targets": [{ "expr": "upload_latency_seconds_bucket", "refId": "A" }],
+      "fieldConfig": {
+        "defaults": { "unit": "s", "color": { "mode": "palette-classic" } },
+        "overrides": []
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Query Latency Over Time",
+      "gridPos": { "x": 12, "y": 8, "w": 12, "h": 8 },
+      "id": 6,
+      "datasource": "Prometheus",
+      "targets": [{ "expr": "query_latency_seconds_bucket", "refId": "A" }],
+      "fieldConfig": {
+        "defaults": { "unit": "s", "color": { "mode": "palette-classic" } },
+        "overrides": []
+      }
+    }
+  ]
+}
