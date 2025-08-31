@@ -18,7 +18,7 @@ The high-level system architecture and the system front end are displayed in the
 ---
 
 ### Enterprise Data
-The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structure or unstructured) and most data formats (png, jpeg, txt, pdf, wav, xml, html etc) can be chuncked and uploaded into the 
+The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structure or unstructured) and most data formats (png, jpeg, txt, pdf, wav(sound), xml, docx, eml, wav html etc) can be chuncked and uploaded into the 
 into the Pinecone vector database. 
 
 ### Streamlit Front End
