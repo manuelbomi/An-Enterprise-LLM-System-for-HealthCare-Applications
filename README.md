@@ -139,11 +139,8 @@ This project has been developed using VSCode on a Windows 10 based enterprise sy
 Thank you for reading through
 
 ---
-
 ### **AUTHOR'S BACKGROUND**
-
-
-### Author's Name:  Emmanuel Oyekanlu---
+### Author's Name:  Emmanuel Oyekanlu
 ```
 Skillset:   I have experience spanning several years in developing scalable enterprise data pipelines,
 data science applications, enterprise solution architecture, architecting enterprise systems data and AI applications,
