@@ -63,6 +63,14 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 *  document_chunks_uploaded (histogram of how many chunks each doc upload produced)
 
+  ##### Users' Related Metrics
+
+* total_queries{user="emmanuel"}
+
+* query_latency_seconds_bucket{user="anonymous"}
+
+* document_chunks_uploaded_sum{user="emmanuel"}
+
 
 Grafana is used to display the results of Prometheus metrics.
 
