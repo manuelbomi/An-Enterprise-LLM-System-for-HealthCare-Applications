@@ -63,11 +63,7 @@ Input the queries (questiosn). Model will provide answers. The model will also s
 The model will suggest follow-up questions.
 ![Image](https://github.com/user-attachments/assets/233d1367-d668-4393-a595-f03b68c95c60)
 
-
-
-
-
----
+--
 Thank you for reading through
 
 ---
