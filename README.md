@@ -40,6 +40,26 @@ Course topics include:
 * [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz (O'Reilly) --  Optional; more traditional introduction to Python as a computer language.
 
 
+---
+### Hallucination Mitigation Strategies
+#### Mitigation strategies:
+##### Data Quality
+    (1)Use data of high quality to train LLMs. (2)Ensure the training data is accurate, comprehensive, and free from biases. (3) Ensure that the data captures the overall range of your desired objectives
+##### Grounding Techniques
+    Use cleansed and curated data and expose the LLM to the data's repository. This is the approach that we used in this discourse.
+##### Retrieval-Augmented Generation (RAG)
+    Integrate real-time knowledge retrieval methods into the response generation process. The real time data may be harvested through a website, an API endpoint, or an OLAP database that stores real time company's data.
+##### Advanced prompting techniques
+     Use techniques like chain-of-thought prompting to guide the LLM's reasoning. 
+##### Prompt engineering
+     Carefully crafting prompts to elicit more accurate and reliable responses
+
+
+
+
+
+
+
 
 Load model and chat
 --- 
