@@ -17,9 +17,6 @@ The high-level system architecture and the system front end are displayed in the
 
 ---
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e84b4423-1165-4209-9ffc-b88f867f2ab8" />
-
----
 
 ### Enterprise Data
 The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structure or unstructured) and most data formats (png, jpeg, txt, pdf, wav, xml, html etc) can be chuncked and uploaded into the 
@@ -47,13 +44,22 @@ Grafana is used to display the results of Prometheus metrics.
 
 The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
 
-OpenAI API key is used to obtain key that facilitate teh usage of OpenAPI Embeddings. Landchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vc=ector database. 
+OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Landchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vc=ector database. 
 
 
+
+### How to Deploy for Enterprise Applications
+
+The project can be deployed for numerous enterprise applications even though this iteration is for health-care uses. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed. For example, a use case of the same applications for manufacturing is available here: 
+
+To deploy for other applications in industrial settings, the Solution Engineer must first create a Pinecone databases that warehouses the vector embeddings of the dataset of the desired application. An infograph tutorial on how to set up a free instance of the Pinecone vector database is available here: 
+
+#### Setting up the project locally
+This project has been developed using VSCode on a Windows 10 based enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
 
 ---
 
-
+<img width="225" height="458" alt="Image" src="https://github.com/user-attachments/assets/c28967a2-167f-42a3-909e-f1a190624cf4" />
 ---
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/8805177c-fbea-4481-8414-82395a17f256" />
@@ -65,6 +71,10 @@ OpenAI API key is used to obtain key that facilitate teh usage of OpenAPI Embedd
 ---
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/5b588f6d-2336-4c3d-821e-66b961fae90c" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e84b4423-1165-4209-9ffc-b88f867f2ab8" />
 
 ---
 
