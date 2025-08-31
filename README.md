@@ -142,13 +142,13 @@ Thank you for reading through
 
 ### **AUTHOR'S BACKGROUND**
 
-```
 
-Author's Name:  Emmanuel Oyekanlu
+### Author's Name:  Emmanuel Oyekanlu---
+```
 Skillset:   I have experience spanning several years in developing scalable enterprise data pipelines,
-soluttion architecture, architecting enterprise systems data and AI applications, software and AI solution
-design and deployments, data engineering, high performance computing (GPU, CUDA), machine learning, NLP and LLM
-applications as well as deploying scalable solutions (apps) on-prem and in the cloud.
+data science applications, enterprise solution architecture, architecting enterprise systems data and AI applications,
+software and AI solution design and deployments, data engineering, high performance computing (GPU, CUDA), machine learning,
+NLP and LLM applications as well as deploying scalable solutions (apps) on-prem and in the cloud.
 
 I can be reached through: manuelbomi@yahoo.com
 
