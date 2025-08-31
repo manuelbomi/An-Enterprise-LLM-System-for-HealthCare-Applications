@@ -8,7 +8,7 @@ The system imploy the use of Langchain, OpenAIEmbeddings and Pinecove vector dat
 The high-level system architecture and the system front end are displayed in the figures below:
 
 ---
-
+### System Streamlit Front-End
 <img width="521" height="301" alt="Image" src="https://github.com/user-attachments/assets/db8beb9c-c908-4247-8a01-d715d6b72159" />
 
 ---
