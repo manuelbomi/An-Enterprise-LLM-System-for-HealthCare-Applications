@@ -7,16 +7,10 @@ services:
     env_file:
       - ./app/.env
     ports:
-      - "8501:8501"
-      - "9001:9001"
+      - "8501:8501"   # Streamlit
+      - "9001:9001"   # Prometheus metrics
     volumes:
       - ./app:/app
-    # environment:
-    #   - OPENAI_API_KEY=${OPENAI_API_KEY}
-    #   - PINECONE_API_KEY=${PINECONE_API_KEY}
-    #   - PINECONE_ENVIRONMENT=${PINECONE_ENVIRONMENT}
-    #   - PINECONE_INDEX_NAME=${PINECONE_INDEX_NAME}
-
     depends_on:
       - prometheus
 
@@ -33,5 +27,6 @@ services:
       - "3006:3000"
     volumes:
       - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/dashboards:/var/lib/grafana/dashboards   # NEW: mount dashboards
     depends_on:
       - prometheus

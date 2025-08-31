@@ -1,11 +1,22 @@
+# Core app
 streamlit
+python-dotenv
+
+# LangChain + LLM stack
 langchain
 langchain-pinecone
 langchain-community
-pinecone-client>=3.0.0
 openai
-python-dotenv
-pypdf
+pinecone-client
+
+# Document loaders & parsing
 unstructured
-tiktoken
+pypdf
+
+
+# Metrics
 prometheus-client
+
+# Optional but recommended
+tiktoken
+
