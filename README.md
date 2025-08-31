@@ -21,7 +21,6 @@ The high-level system architecture and the system front end are displayed in the
 
 ---
 
-
 ### Enterprise Data
 The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structure or unstructured) and most data formats (png, jpeg, txt, pdf, wav, xml, html etc) can be chuncked and uploaded into the 
 into the Pinecone vector database. 
@@ -44,37 +43,16 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 Grafana is used to display the results of Prometheus metrics.
 
-## Instructor
+### System Deployment (Docker)
 
-* Luke Thompson, Ph.D.
-* Assistant Research Professor, NOAA Northern Gulf Institute, Atlantic Oceanographic and Meteorological Laboratory, Miami, Florida
-* Email: [luke.thompson@noaa.gov](mailto:lukethompson@noaa.gov)
-* Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile](https://swfsc.noaa.gov/staff.aspx?id=22360)
+The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
 
-## Online Content
+OpenAI API key is used to obtain key that facilitate teh usage of OpenAPI Embeddings. Landchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vc=ector database. 
 
-* GitHub repository: <https://github.com/cuttlefishh/python-for-data-analysis>
-* YouTube channel: <https://www.youtube.com/channel/UCVZrIrWtcvTzYlrNx7RcDyg>
-
-## Textbooks
-
-* [_Learn Python 3 the Hard Way_](https://learnpythonthehardway.org/python3/) by Zed Shaw (Addison-Wesley) -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course.
-* [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz (O'Reilly) --  Optional; more traditional introduction to Python as a computer language.
 
 
 ---
-### Hallucination Mitigation Strategies
-#### Mitigation strategies:
-##### Data Quality
-    (1)Use data of high quality to train LLMs. (2)Ensure the training data is accurate, comprehensive, and free from biases. (3) Ensure that the data captures the overall range of your desired objectives
-##### Grounding Techniques
-    Use cleansed and curated data and expose the LLM to the data's repository. This is the approach that we used in this discourse.
-##### Retrieval-Augmented Generation (RAG)
-    Integrate real-time knowledge retrieval methods into the response generation process. The real time data may be harvested through a website, an API endpoint, or an OLAP database that stores real time company's data.
-##### Advanced prompting techniques
-     Use techniques like chain-of-thought prompting to guide the LLM's reasoning. 
-##### Prompt engineering
-     Carefully crafting prompts to elicit more accurate and reliable responses
+
 
 ---
 
