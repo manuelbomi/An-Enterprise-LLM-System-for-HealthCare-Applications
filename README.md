@@ -1,6 +1,6 @@
 # An Enterprise LLM System for Healthcare Applications
 
-We present and enterprise LLM system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system present an interface that is similar to the ChatGPT interface through which healthcare professionals can interact with their own data warehoused as vector embeddings in a vector database (Pinecone). 
+We present an enterprise LLM system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system present an interface that is similar to the ChatGPT interface through which healthcare professionals can interact with their own data warehoused as vector embeddings in a vector database (Pinecone). 
 
 The system imploy the use of Langchain, OpenAIEmbeddings and Pinecove vector database to convert healthcare enterprise data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in a Pinecone Cloud vector database. Streamlit is used to provide a friendly user interface through which healthcare practitioners can interact with their vectorised enterprise datasets. Prometheus time series database and Grafana are used as overall system performance monitoring tools. 
 
