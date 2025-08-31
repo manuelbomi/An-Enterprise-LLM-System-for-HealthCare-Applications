@@ -42,6 +42,7 @@ Course topics include:
 
 
 Load model and chat
+--- 
 
 ![Image](https://github.com/user-attachments/assets/92896a90-98b4-4cfa-a515-f8243cc33720)
 
@@ -54,14 +55,6 @@ Input the queries (questiosn). Model will provide answers. The model will also s
 ---
 
 
-![Image](https://github.com/user-attachments/assets/7b18e4f2-3511-46c9-9dfb-0041cb1e9c7e)
-
----
-![Image](https://github.com/user-attachments/assets/2c49ec1b-c0f9-4609-a7aa-5571b5376eba)
-
----
-The model will suggest follow-up questions.
-![Image](https://github.com/user-attachments/assets/233d1367-d668-4393-a595-f03b68c95c60)
 
 --
 Thank you for reading through
