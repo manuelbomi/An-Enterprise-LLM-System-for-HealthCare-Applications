@@ -31,11 +31,38 @@ The Streamlit front end can be used for:
 ### Montoring System Performance with Prometheus and Grafana
 Prometheus timeseries database is used to scrape important system metrics such as 
 
-* Total queries in a time range
-* Total uploaded files in a time range
-* Total file upload failures in a time range 
-* File upload latency
-* Query latency
+##### Latency
+
+*  upload_latency_seconds → upload time
+
+*  query_latency_seconds → full query time
+
+*  retrieval_latency_seconds → Pinecone retrieval only
+
+*  llm_latency_seconds → GPT generation only
+
+  ##### Failures
+
+*  upload_failures_total
+
+*  retrieval_failures_total
+
+*  llm_failures_total
+
+*  query_failures_total
+
+##### System Concurrency
+
+* queries_in_progress
+
+*  retrievals_in_progress
+
+*  llms_in_progress
+
+*  Document Size
+
+*  document_chunks_uploaded (histogram of how many chunks each doc upload produced)
+
 
 Grafana is used to display the results of Prometheus metrics.
 
