@@ -1,26 +1,48 @@
 # An Enterprise LLM System for HealthCare Applications
 
-Course in data science. Learn to analyze data of all types using the Python programming language. No programming experience is necessary.
+We present and enterprise LLM system that could be deployed by healthcare providing entities for knowledge discovery, project assistance, and topic aggregation. The LLM system present an interface that is similar to the ChatGPT interface through which healthcare professionals can interact with their own data warehoused in a vector database (Pinecone). 
 
-Quick links: [📁 lessons](https://github.com/cuttlefishh/python-for-data-analysis/tree/master/lessons)  [⏬ Lesson Schedule](https://github.com/cuttlefishh/python-for-data-analysis#lesson-schedule)
+The system imploy the use of Langchain, OpenAIEmbeddings and Pinecove vector database to convert healthcare enterprise data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in Pinecone Cloud vector database. Streamlit is used to provide a friendly user interface through which healthcare practitioners can interact with their vectorised enterprised datasets. 
 
-Software covered:
+### System Architecture 
+The high-level system architecture and the system front end are displayed in the figures below:
 
-* Python 3
-* IPython environment and Jupyter notebooks
-* Conda for package management and virtual environments
+---
 
-Course topics include:
+<img width="521" height="301" alt="Image" src="https://github.com/user-attachments/assets/db8beb9c-c908-4247-8a01-d715d6b72159" />
 
-* The UNIX command line
-* Fundamentals of Python and its data types
-* Data analysis packages Numpy and Pandas
-* Plotting packages Matplotlib and Seaborn
-* Statistics
-* Regular expressions
-* Interactive visualization
-* Modules and classes
-* Git and GitHub
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2d785f47-8aa3-4471-86bc-444d663c7372" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e84b4423-1165-4209-9ffc-b88f867f2ab8" />
+
+---
+
+
+### Enterprise Data
+The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structure or unstructured) and most data formats (png, jpeg, txt, pdf, wav, xml, html etc) can be chuncked and uploaded into the 
+into the Pinecone vector database. 
+
+### Streamlit Front End
+The Streamlit front end can be used for:
+
+* Querying/interacting with the system (user interface)
+* Uploading new data into the Pinecone vector database
+* Displaying the result of the users' queries.
+
+### Montoring System Performance with Prometheus and Grafana
+Prometheus timeseries database is used to scrape important system metrics such as 
+
+* Total queries in a time range
+* Total uploaded files in a time range
+* Total file upload failures in a time range 
+* File upload latency
+* Query latency
+
+Grafana is used to display the results of Prometheus metrics.
 
 ## Instructor
 
@@ -54,25 +76,66 @@ Course topics include:
 ##### Prompt engineering
      Carefully crafting prompts to elicit more accurate and reliable responses
 
+---
 
-
-
-
-
-
-
-Load model and chat
---- 
-
-![Image](https://github.com/user-attachments/assets/92896a90-98b4-4cfa-a515-f8243cc33720)
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/8805177c-fbea-4481-8414-82395a17f256" />
 
 ---
 
-Input the queries (questiosn). Model will provide answers. The model will also suggest follow up questions.
-
-![Image](https://github.com/user-attachments/assets/4da427f5-45e4-4796-a3d0-df8bdc14e38d)
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/0ab1a93e-74e9-4080-8271-d57707f6d87d" />
 
 ---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/5b588f6d-2336-4c3d-821e-66b961fae90c" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/5f226b98-4a50-4d81-8bc9-e97b2da1ad7b" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/fe1f48e8-e941-4474-9a51-074bfa84e246" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/1708aec5-67d1-4e95-9e80-c9c5e702dbf8" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/12ef7201-1a5d-4d46-8884-7219d018f5f8" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e3393cf5-f00f-4567-ad51-e3f7171c2a82" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/baf76756-7e74-4aae-ab44-de3172d495cb" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/268cb56b-4c03-443a-b59b-d08b15e14da3" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/26b112f6-40c2-4ac2-b6d8-8e8a581181ad" />
+
+---
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d57c65d5-7631-46e8-b05f-79e69024a770" />
+
+---
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/bb2af9cd-e830-428d-ab65-972b5ce15573" />
+
+---
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d21e0858-cb82-4deb-b1f5-ecd10de57b46" />
+
+---
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d3cac355-9e48-4e95-af6a-4724ac28f74f" />
+
+
+
+
+
 
 
 
