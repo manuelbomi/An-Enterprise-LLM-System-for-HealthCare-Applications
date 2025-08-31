@@ -1,8 +1,8 @@
-# An Enterprise LLM System for HealthCare Applications
+# An Enterprise LLM System for Healthcare Applications
 
-We present and enterprise LLM system that could be deployed by healthcare providing entities for knowledge discovery, project assistance, and topic aggregation. The LLM system present an interface that is similar to the ChatGPT interface through which healthcare professionals can interact with their own data warehoused in a vector database (Pinecone). 
+We present and enterprise LLM system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system present an interface that is similar to the ChatGPT interface through which healthcare professionals can interact with their own data warehoused as vector embeddings in a vector database (Pinecone). 
 
-The system imploy the use of Langchain, OpenAIEmbeddings and Pinecove vector database to convert healthcare enterprise data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in Pinecone Cloud vector database. Streamlit is used to provide a friendly user interface through which healthcare practitioners can interact with their vectorised enterprised datasets. 
+The system imploy the use of Langchain, OpenAIEmbeddings and Pinecove vector database to convert healthcare enterprise data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in a Pinecone Cloud vector database. Streamlit is used to provide a friendly user interface through which healthcare practitioners can interact with their vectorised enterprise datasets. Prometheus time series database and Grafana are used as overall system performance monitoring tools. 
 
 ### System Architecture 
 The high-level system architecture and the system front end are displayed in the figures below:
@@ -16,7 +16,6 @@ The high-level system architecture and the system front end are displayed in the
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2d785f47-8aa3-4471-86bc-444d663c7372" />
 
 ---
-
 
 ### Enterprise Data
 The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structure or unstructured) and most data formats (png, jpeg, txt, pdf, wav, xml, html etc) can be chuncked and uploaded into the 
@@ -119,6 +118,15 @@ This project has been developed using VSCode on a Windows 10 based enterprise sy
 
 ---
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d3cac355-9e48-4e95-af6a-4724ac28f74f" />
+
+
+--- 
+### Scaling Up for Enterprise Applications
+#### Callable Functions
+
+#### ZenML (MLOps)
+
+#### Kubeflow for deploying on Kubernetes 
 
 
 
