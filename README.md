@@ -2,11 +2,11 @@
 
 We present an enterprise large language model  (LLM) system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system features a user interface (UI) that is similar to the ChatGPT UI through which healthcare professionals can interact with, and query their own data warehoused as vector embeddings in a vector database (Pinecone). 
 
-The system imploy the use of Langchain, OpenAIEmbeddings, an LLM model (**gpt-4**),  and Pinecove vector database to convert enterprise healthcare data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in a Pinecone Cloud vector database. Streamlit is used to provide a friendly UI through which healthcare practitioners can interact with their vectorised enterprise datasets. 
+The system imploy the use of: Langchain, OpenAIEmbeddings, an LLM model (**gpt-4**),  and Pinecone vector database to convert enterprise healthcare data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in a Pinecone Cloud vector database. Streamlit is used to provide a friendly UI through which healthcare practitioners can interact with their vectorised enterprise datasets. 
 
 Prometheus time series database and Grafana are used as overall system performance monitoring tools. 
 
-We also discuss how the Enterprise Architect may work alongside the Solution Engineer to use MLOps (machine learning operations) best practices to scale up the system in an enterprise setting using MLOps and orchestration tools such as ZenML, Kubeflow, Airflow and Kubernetes. 
+We also discuss how an Enterprise Architect may work alongside the Solution Engineer to use MLOps (machine learning operations) best practices to scale up the system in an enterprise setting using MLOps and CI/CD orchestration tools such as ZenML, Kubeflow, Airflow and Kubernetes. 
 
 ### System Architecture 
 The high-level system architecture and the system front end are displayed in the figures below:
@@ -17,6 +17,9 @@ The high-level system architecture and the system front end are displayed in the
 
 ---
 ### System Streamlit Front-End
+
+Examples of how the system provide answers through the Streamlit front end are provided in the series of figures below:
+
 ---
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/09e7d95b-90e5-4ce5-bb0d-327a7ed8d4ae" />
@@ -193,6 +196,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
