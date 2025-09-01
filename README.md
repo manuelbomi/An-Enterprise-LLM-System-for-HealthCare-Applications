@@ -13,8 +13,28 @@ The high-level system architecture and the system front end are displayed in the
 
 ---
 ### System Streamlit Front-End
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/09e7d95b-90e5-4ce5-bb0d-327a7ed8d4ae" />
 
 ---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/98a0bd01-c2c9-45f9-a19c-c77bd31e3be2" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/da314dd8-f483-4d5b-a84a-3a3c918b08fa" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/fef22d10-1952-4d81-b60e-b70dceb0ecd2" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d1fe77e1-5bbd-47f0-87f9-32c2435d2938" />
+
+---
+
 
 ### Enterprise Data
 The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structure or unstructured) and most data formats (png, jpeg, txt, pdf, wav(sound), xml, docx, eml, wav html etc) can be chuncked and uploaded into the 
@@ -141,5 +161,6 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
