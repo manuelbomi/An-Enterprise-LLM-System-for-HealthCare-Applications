@@ -3,7 +3,7 @@
 apiVersion: 1
 
 providers:
-  - name: 'Healthcare LLM Dashboards'
+  - name: 'Manufacturing System LLM Dashboards'
     orgId: 1
     folder: ''
     type: file
