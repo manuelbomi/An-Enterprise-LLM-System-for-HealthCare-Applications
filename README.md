@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# An Enterprise LLM System for HealthCare Applications
-"# An-Enterprise-LLM-System-for-Healthcare-Applications-b" 
-
-=======
 # An Enterprise LLM System for Healthcare Applications
 
 We present an enterprise LLM system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system present an interface that is similar to the ChatGPT interface through which healthcare professionals can interact with their own data warehoused as vector embeddings in a vector database (Pinecone). 
@@ -13,13 +8,11 @@ The system imploy the use of Langchain, OpenAIEmbeddings and Pinecove vector dat
 The high-level system architecture and the system front end are displayed in the figures below:
 
 ---
-<img width="521" height="301" alt="Image" src="https://github.com/user-attachments/assets/db8beb9c-c908-4247-8a01-d715d6b72159" />
 
-
+<img width="521" height="301" alt="Image" src="https://github.com/user-attachments/assets/695c1c01-95b5-4657-9b93-7d274248e7a6" />
 
 ---
 ### System Streamlit Front-End
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2d785f47-8aa3-4471-86bc-444d663c7372" />
 
 ---
 
@@ -99,65 +92,16 @@ This project has been developed using VSCode on a Windows 10 based enterprise sy
 
 ---
 
-<img width="225" height="458" alt="Image" src="https://github.com/user-attachments/assets/c28967a2-167f-42a3-909e-f1a190624cf4" />
----
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/8805177c-fbea-4481-8414-82395a17f256" />
-
 ---
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/0ab1a93e-74e9-4080-8271-d57707f6d87d" />
 
 ---
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/5b588f6d-2336-4c3d-821e-66b961fae90c" />
+
 
 ---
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e84b4423-1165-4209-9ffc-b88f867f2ab8" />
 
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/5f226b98-4a50-4d81-8bc9-e97b2da1ad7b" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/fe1f48e8-e941-4474-9a51-074bfa84e246" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/1708aec5-67d1-4e95-9e80-c9c5e702dbf8" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/12ef7201-1a5d-4d46-8884-7219d018f5f8" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e3393cf5-f00f-4567-ad51-e3f7171c2a82" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/baf76756-7e74-4aae-ab44-de3172d495cb" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/268cb56b-4c03-443a-b59b-d08b15e14da3" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/26b112f6-40c2-4ac2-b6d8-8e8a581181ad" />
-
----
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d57c65d5-7631-46e8-b05f-79e69024a770" />
-
----
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/bb2af9cd-e830-428d-ab65-972b5ce15573" />
-
----
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d21e0858-cb82-4deb-b1f5-ecd10de57b46" />
-
----
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d3cac355-9e48-4e95-af6a-4724ac28f74f" />
 
 
 --- 
@@ -197,4 +141,5 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
