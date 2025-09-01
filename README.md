@@ -26,10 +26,6 @@ Examples of how the system provide answers through the Streamlit front end are p
 
 ---
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/09e7d95b-90e5-4ce5-bb0d-327a7ed8d4ae" />
-
----
-
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/da314dd8-f483-4d5b-a84a-3a3c918b08fa" />
 
 ---
@@ -41,6 +37,11 @@ Examples of how the system provide answers through the Streamlit front end are p
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d1fe77e1-5bbd-47f0-87f9-32c2435d2938" />
 
 ---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/09e7d95b-90e5-4ce5-bb0d-327a7ed8d4ae" />
+
+---
+
 
 
 ### Enterprise Data
@@ -196,6 +197,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
