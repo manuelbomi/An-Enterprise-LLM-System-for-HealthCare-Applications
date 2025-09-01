@@ -109,6 +109,12 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 * document_chunks_uploaded_sum{user="emmanuel"}
 
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/021ebcd4-5531-440b-bfe2-53255cf42bba" />
+
+---
+
 
 Grafana is used to display the results of Prometheus metrics.
 
@@ -183,6 +189,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
