@@ -149,12 +149,6 @@ This project has been developed using VSCode on a Windows 10 based enterprise sy
 
 
 
----
-
-
-
-
---- 
 ### Scaling Up for Enterprise Applications
 #### Callable Functions
 
@@ -191,6 +185,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
