@@ -13,8 +13,9 @@ The system imploy the use of Langchain, OpenAIEmbeddings and Pinecove vector dat
 The high-level system architecture and the system front end are displayed in the figures below:
 
 ---
-
 <img width="521" height="301" alt="Image" src="https://github.com/user-attachments/assets/db8beb9c-c908-4247-8a01-d715d6b72159" />
+
+
 
 ---
 ### System Streamlit Front-End
@@ -196,3 +197,4 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
