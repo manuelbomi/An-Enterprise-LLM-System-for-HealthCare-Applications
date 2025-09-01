@@ -1,8 +1,10 @@
 # An Enterprise LLM System for Healthcare Applications
 
-We present an enterprise LLM system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system present an interface that is similar to the ChatGPT interface through which healthcare professionals can interact with their own data warehoused as vector embeddings in a vector database (Pinecone). 
+We present an enterprise large language model  (LLM) system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system features a user interface (UI) that is similar to the ChatGPT UI through which healthcare professionals can interact with, and query their own data warehoused as vector embeddings in a vector database (Pinecone). 
 
-The system imploy the use of Langchain, OpenAIEmbeddings and Pinecove vector database to convert healthcare enterprise data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in a Pinecone Cloud vector database. Streamlit is used to provide a friendly user interface through which healthcare practitioners can interact with their vectorised enterprise datasets. Prometheus time series database and Grafana are used as overall system performance monitoring tools. 
+The system imploy the use of Langchain, OpenAIEmbeddings, an LLM model (**gpt-4**)  and Pinecove vector database to convert healthcare enterprise data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in a Pinecone Cloud vector database. Streamlit is used to provide a friendly UI through which healthcare practitioners can interact with their vectorised enterprise datasets. Prometheus time series database and Grafana are used as overall system performance monitoring tools. 
+
+We also discuss how the Enterprise Architect may work alongside the Solution Engineer to use MLOps (machine learning operations) best practices to scale up the system in an enterprise setting using MLOps and orchestration tools such as ZenML, Kubeflow, Airflow and Kubernetes. 
 
 ### System Architecture 
 The high-level system architecture and the system front end are displayed in the figures below:
@@ -189,6 +191,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
