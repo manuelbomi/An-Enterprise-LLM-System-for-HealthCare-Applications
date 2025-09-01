@@ -25,11 +25,11 @@ Examples of how the system provide answers through the Streamlit front end are p
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/98a0bd01-c2c9-45f9-a19c-c77bd31e3be2" />
 
 ---
-
+#### Response from LLM system
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/da314dd8-f483-4d5b-a84a-3a3c918b08fa" />
 
 ---
-
+#### Further response from LLM system
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/fef22d10-1952-4d81-b60e-b70dceb0ecd2" />
 
 ---
@@ -197,6 +197,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
