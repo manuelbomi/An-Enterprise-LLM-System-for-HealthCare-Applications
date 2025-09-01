@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # An Enterprise LLM System for HealthCare Applications
 "# An-Enterprise-LLM-System-for-Healthcare-Applications-b" 
+
 =======
 # An Enterprise LLM System for Healthcare Applications
 
@@ -99,7 +100,6 @@ This project has been developed using VSCode on a Windows 10 based enterprise sy
 
 <img width="225" height="458" alt="Image" src="https://github.com/user-attachments/assets/c28967a2-167f-42a3-909e-f1a190624cf4" />
 ---
-
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/8805177c-fbea-4481-8414-82395a17f256" />
 
 ---
