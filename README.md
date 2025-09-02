@@ -204,7 +204,7 @@ After deploying the solution with **docker-compose up --build** command, major f
 - <ins>**Grafana**</ins> will be available at http://localhost:3006/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
 
 #### Cloud Deployment
-For production grade deployments, a dockerized version of the project should be created by the Solution Architect and stored in the enterprise Docker Hub. Other alternatives such as Gitub Containers or AWS ECR (Elastic Container Registry) can also be considerered. 
+For production grade deployments, a dockerized version of the project should be created by the Solution Architect and stored in the enterprise Docker Hub. Other alternatives such as Github Containers or AWS ECR (Elastic Container Registry) can also be considerered. 
 
 The solution can then be deployed via a .github/workflow yaml jobs onto a cloud platform such as GCP Apps Engine, Azure Web Apps, Azure Kubernets Services (AKS), GCP Cloud Run etc. 
 
@@ -248,6 +248,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
