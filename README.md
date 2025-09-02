@@ -113,7 +113,9 @@ Prometheus timeseries database is used to scrape important system metrics such a
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e18ce078-fd8a-47a3-8059-3fe6feff8670" />
 
 ---
-
+---
+---
+---
 
 ## How to Deploy the Project for Healthcare and other Enterprise Applications
 
@@ -142,9 +144,7 @@ To deploy for other applications in industrial settings, the Solution Engineer m
 #### The new index will be available under the set of indexes available on your Pinecone homepage
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c38337cf-0662-4675-bc4f-a9b95a17a1c8" />
 
----
----
----
+
 
 ### Setting up the project for On-Prem or Cloud Deployments
 This project has been developed using VSCode on a Windows 10 based enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
@@ -213,6 +213,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
