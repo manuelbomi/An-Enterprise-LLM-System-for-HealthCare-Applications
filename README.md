@@ -176,11 +176,11 @@ OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embedd
 
 ---
 > [!IMPORTANT]
-> ### In this discourse, we have shown a method by which some GenAI models (such as: llama3.2, deepseek-r1 and gemma3 etc) can be installed <ins>on-prem</ins> using Docker. The same approach could be adopted for <ins>cloud-based</ins> workflow deployments such as when using Linux on an EC2 instance on AWS to deploy GenAI models.
-> ### In our approach, the user may use the docker-installed GenAI models online or offline without the Internet.
-> ### Also,
-> ### Outputs of the models' coding tasks can also be obtained from some of the inforgraphs below.
-> ### We did not advocate for the usage of one model over the other in this discourse since usage requirements and/or needs could vary with different enterprise settings or requirements.
+> ### Docker must be avaialble and running on the local system. 
+> ### Virtual environment should be created for the project, and it must be activated prior to running the project.
+> ### The .env file must be on the same directory as the main.py. The .env file must contain the Pinecone API key, the OpenAI API key, the Pinecone Environment, and Pinecone Index Name
+> ### The .gitignore must be in the root directory and it must contain the virtual environmnet name and the .env
+
 ---
 
 
@@ -221,6 +221,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
