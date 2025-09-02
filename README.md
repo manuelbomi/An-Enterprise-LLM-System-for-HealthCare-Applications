@@ -7,15 +7,15 @@ We present an enterprise large language model  (LLM) system that could be deploy
 <ins>**LangChain**</ins> – Manages orchestration and workflow across the system components.
 
 
-**OpenAIEmbeddings** – Converts enterprise healthcare data into high-dimensional vector representations.
+<ins>**OpenAIEmbeddings**</ins>  – Converts enterprise healthcare data into high-dimensional vector representations.
 
-**GPT-4 (LLM)** – Provides reasoning, natural language understanding, and advanced query handling.
+<ins>**GPT-4 (LLM)**</ins>  – Provides reasoning, natural language understanding, and advanced query handling.
 
-**Pinecone Vector Database** – Stores and indexes embeddings in the cloud to enable efficient similarity search and retrieval.
+<ins>**Pinecone Vector Database**</ins>  – Stores and indexes embeddings in the cloud to enable efficient similarity search and retrieval.
 
-**Streamlit User Interface** – Delivers an interactive, user-friendly frontend through which healthcare practitioners can query and analyze their vectorized enterprise datasets.
+<ins>**Streamlit User Interface**</ins>  – Delivers an interactive, user-friendly frontend through which healthcare practitioners can query and analyze their vectorized enterprise datasets.
 
-**Prometheus** time series database and **Grafana** are used as overall system performance monitoring tools. 
+<ins>**Prometheus**</ins>  time series database and <ins>**Grafana**</ins>  are used as overall system performance monitoring tools. 
 
 We also discuss how an Enterprise Architect may work alongside the Solution Engineer to use MLOps (machine learning operations) best practices to scale up the system in an enterprise setting using MLOps and CI/CD orchestration tools such as ZenML, Kubeflow, Airflow and Kubernetes. 
 
@@ -229,6 +229,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
