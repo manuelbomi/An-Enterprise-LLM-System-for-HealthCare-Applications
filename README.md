@@ -175,7 +175,7 @@ This project has been developed using VSCode on a Windows 10 enterprise system e
 
 To deploy the project, the Solution Engineer or Architect must clone the project from the Github repository here:  https://github.com/manuelbomi/An-Enterprise-LLM-System-for-HealthCare-Applications.git  
 
-A variant of the deployment for manufacturing use case can also be cloned from here: 
+A variant of the deployment for manufacturing use case can also be cloned from here: https://github.com/manuelbomi/An-Enterprise-Generative-AI-LLM-System-for-Manufacturing-and-Business-Applications-
 
 ---
 #### Example of the main.py running on VSCode
@@ -220,7 +220,7 @@ The Enterprise Architect may desire to deploy the system for other use cases in 
 Orchestration tools such as ZenML or Airflow can be used together with CI/CD tools such as Github Actions. Using ZenML or Airflow will aid robust MLOps strategies across the enterprise. 
 
 #### Kubeflow for deploying on Kubernetes 
-As usesrs of the system increases, there may be a need to scale up the number of Kubernetes pods and Docker nodes that are used in production. Using tools such as Kubeflow as orchestrating tool will enable such scaling up to be easily achieved. This will lead to a very reactive and robust system that seamlessly serves its enterprise objectives.   
+As usesrs of the system increases, there may be a need to scale up the number of Kubernetes pods and Docker nodes that are used in production. Using tools such as Kubeflow as orchestration tool will enable such scaling up to be easily achieved. This will lead to a very reactive and robust system that seamlessly serves its enterprise objectives.   
 
 
 
@@ -250,6 +250,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
