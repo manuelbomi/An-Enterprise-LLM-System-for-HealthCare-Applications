@@ -128,12 +128,15 @@ To deploy for other applications in industrial settings, the Solution Engineer m
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9795a732-4745-457a-84c3-215e06007a1d" />
 
 ---
+
 #### Click on Customs settings and set the vector dimension to 1536. (1536 is the OpenAI default vector length for most of OpenAI data embedding models)
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d75d5dd2-546c-450e-818f-275e534413a1" />
 
 ---
+
 #### Now, click to create the index
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7116f7de-58c6-4eb5-aa99-97e5b0587eae" />
+
 ---
 
 #### The new index will be available under the set of indexes available on your Pinecone homepage
@@ -141,11 +144,7 @@ To deploy for other applications in industrial settings, the Solution Engineer m
 
 ---
 
-#### Setting up the project locally
-The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
-
-
-OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vector database. 
+### Setting up the project for On-Prem or Cloud Deployments
 This project has been developed using VSCode on a Windows 10 based enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
 
 ---
@@ -156,6 +155,14 @@ This project has been developed using VSCode on a Windows 10 based enterprise sy
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4ede62a2-7903-43f0-b916-a4dc732de390" />
 
 ---
+
+The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
+
+
+OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vector database. 
+
+
+
 
 ---
 > [!IMPORTANT]
@@ -204,6 +211,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
