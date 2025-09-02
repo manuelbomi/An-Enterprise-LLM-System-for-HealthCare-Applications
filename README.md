@@ -42,36 +42,16 @@ Examples of how the system provide answers through the Streamlit front end are p
 
 ---
 
+#### The Streamlit front end can be used for:
+
+* Querying/interacting with the system (user interface)
+* Uploading new data into the Pinecone vector database
+* Displaying the result of the users' queries.
 
 
 ### Enterprise Data
 The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structured or unstructured) and most data formats (png, jpeg, txt, pdf, wav(sound), xml, docx, eml, wav html etc) can be chuncked and uploaded into the into the Pinecone vector database. 
 
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c38337cf-0662-4675-bc4f-a9b95a17a1c8" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9795a732-4745-457a-84c3-215e06007a1d" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d75d5dd2-546c-450e-818f-275e534413a1" />
-
----
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7116f7de-58c6-4eb5-aa99-97e5b0587eae" />
-
----
-
-
-### Streamlit Front End
-The Streamlit front end can be used for:
-
-* Querying/interacting with the system (user interface)
-* Uploading new data into the Pinecone vector database
-* Displaying the result of the users' queries.
 
 ### Montoring System Performance with Prometheus and Grafana
 Prometheus timeseries database is used to scrape important system metrics such as: 
@@ -136,6 +116,28 @@ Grafana is used to display the results of Prometheus metrics.
 
 The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
 
+
+
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c38337cf-0662-4675-bc4f-a9b95a17a1c8" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9795a732-4745-457a-84c3-215e06007a1d" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d75d5dd2-546c-450e-818f-275e534413a1" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7116f7de-58c6-4eb5-aa99-97e5b0587eae" />
+
+---
+
+
 OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Landchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vc=ector database. 
 
 
@@ -196,6 +198,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
