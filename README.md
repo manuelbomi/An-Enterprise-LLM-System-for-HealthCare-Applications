@@ -2,7 +2,7 @@
 
 We present an enterprise large language model  (LLM) system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system features a user interface (UI) that is similar to the ChatGPT UI through which healthcare professionals can interact with, and query their own data warehoused as vector embeddings in a vector database (Pinecone). 
 
-Open source University of Maryland Health System data set are used in this case study.
+Open source <ins>**University of Maryland Health System**</ins> data set are used in this case study.
 
 ### The system is composed of the following core components:
 
@@ -250,6 +250,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
