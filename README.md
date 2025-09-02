@@ -194,7 +194,7 @@ OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embedd
 #### On Prem-Deployment
 After deploying the solution with **docker-compose up --build** command, the major front-end components of the projects (Streamlit, Prometheus & Grafana) will be available at the following URLs:
 
-<ins> ** Streamlit **</ins> will be available at http://localhost:8501/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
+<ins>**Streamlit**</ins> will be available at http://localhost:8501/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
 
 #### Cloud Deployment
 
@@ -238,6 +238,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
