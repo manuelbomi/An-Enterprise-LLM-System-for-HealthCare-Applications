@@ -66,7 +66,7 @@ Examples of how the system provide answers through the Streamlit front end are p
 The data warehoused in the Pinecone Vector database is an enterprise dataset since all forms of data (structured or unstructured) and most data formats (png, jpeg, txt, pdf, wav(sound), xml, docx, eml, wav html etc) can be chuncked and uploaded into the Pinecone vector database. 
 
 
-### Montoring System Performance with Prometheus and Grafana
+### Monitoring System Performance with Prometheus and Grafana
 Prometheus timeseries database is used to scrape important system metrics such as: 
 
 ##### Query Latencies
@@ -250,6 +250,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
