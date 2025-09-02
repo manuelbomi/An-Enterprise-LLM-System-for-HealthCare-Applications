@@ -190,12 +190,12 @@ OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embedd
 > ### To run the project successfully, Docker must be available and running on the local system before the **docker-compose up --build** command
 > ### Virtual environment should be created on VSCode for the project, and it must be activated prior to running the project.
 > ### The .env file must be on the same directory as the main.py. The .env file must contain the Pinecone API key, the OpenAI API key, the Pinecone Environment, and Pinecone Index Name
-> ### The .gitignore must be in the root directory and it must contain the virtual environmnet name and the .env so that when the Solution Architect pushes the solution onto Github to be deployed, the secrets in the .env file and the virtual environment will not be pushed. 
+> ### The .gitignore must be in the root directory and it must contain the virtual environment name and the .env so that when the Solution Architect pushes the solution onto Github to be deployed, the secrets in the .env file and the huge virtual environment folder will not be pushed. 
 
 ---
 
 #### On Prem-Deployment
-After deploying the solution with **docker-compose up --build** command, the major front-end components of the projects (Streamlit, Prometheus & Grafana) will be available at the following URLs:
+After deploying the solution with **docker-compose up --build** command, major front-end components of the projects (Streamlit, Prometheus & Grafana) will be available at the following URLs:
 
 <ins>**Streamlit**</ins> will be available at http://localhost:8501/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
 <ins>**Prometheus**</ins> will be available at http://localhost:9090/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
@@ -246,6 +246,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
