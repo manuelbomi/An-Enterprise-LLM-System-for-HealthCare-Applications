@@ -17,7 +17,7 @@ We present an enterprise large language model  (LLM) system that could be deploy
 
 <ins>**Prometheus**</ins>  time series database and <ins>**Grafana**</ins>  are used as overall system performance monitoring tools. 
 
-We also discuss how an Enterprise Architect may work alongside the Solution Engineer to use MLOps (machine learning operations) best practices to scale up the system in an enterprise setting using MLOps and CI/CD orchestration tools such as ZenML, Kubeflow, Airflow and Kubernetes. 
+We also discuss how an Enterprise Architect may work alongside the Solution Architect to use MLOps (machine learning operations) best practices to scale up the system in an enterprise setting using MLOps and CI/CD orchestration tools such as ZenML, Kubeflow, Airflow and Kubernetes. 
 
 ### System Architecture 
 The high-level system architecture and the system front end are displayed in the figures below:
@@ -136,7 +136,7 @@ The project can be deployed for numerous other enterprise applications even thou
 If the Solution Architect does not have access keys to a particular Pinecone database, the Solution Architect can just create a new index on Pinecone, and then warehouse the vector embeddings of the new dataset on the newly created Pinecone index.
 
 ### Create Pinecone Vector Database
-To deploy the solution for other applications in enterprise settings, the Solution Engineer must first create a Pinecone database that warehouses the vector embeddings of the dataset of the desired application. Infographs detailing how the Solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
+To deploy the solution for other applications in enterprise settings, the Solution Architect must first create a Pinecone database that warehouses the vector embeddings of the dataset of the desired application. Infographs detailing how the Solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
 
 ---
 
@@ -231,6 +231,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
