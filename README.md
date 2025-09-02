@@ -31,7 +31,7 @@ The high-level system architecture and the system front end is shown in the figu
 ---
 ### System Streamlit Front-End
 
-Examples of how the system provide answers through the Streamlit front end are provided in the series of figures below:
+Examples of how the system provide answers via the Streamlit front end are provided in the series of figures below:
 
 ---
 #### Query: Highlight the relationships between University of Maryland and MALDI
@@ -250,6 +250,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
