@@ -135,7 +135,7 @@ The project can be deployed for numerous other enterprise applications even thou
 
 If the Solution Architect does not have access keys to a particular Pinecone database, the Solution Architect can just create a new index on Pinecone, and then warehouse the vector embeddings of the new dataset on the newly created Pinecone index.
 
-Vector embeddings can be created by just clicking on the data to be uploaded via the Streamlit front end, and then clicking on 'Process and Upload to Pinecone' button. The back end at main.py will efficiently handle data chuncking and all other Pinecone embedding processes. 
+Vector embeddings can be created by just clicking on the data to be uploaded via the Streamlit front end, and then clicking on <ins>**'Process and Upload to Pinecone'**</ins> button. The back end at main.py will efficiently handle data chuncking and all other Pinecone embedding processes. 
 
 ### Creating a Pinecone Vector Database
 As mentioned earlier, to be able to deploy the solution for other applications in enterprise settings, the Solution Architect must first create a Pinecone database to store the vector embeddings of the dataset of the desired application. Infographs detailing how the Solution Architect may set up a free instance of the Pinecone vector database are provided below: 
@@ -248,6 +248,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
