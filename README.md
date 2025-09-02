@@ -114,17 +114,10 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 ---
 
-The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
 
+### How to Deploy the Project for Healthcare and other Enterprise Applications
 
-OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vector database. 
-
-
-
-
-### How to Deploy for Enterprise Applications
-
-The project can be deployed for numerous enterprise applications even though this iteration is for health-care uses. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed. For example, a use case of the same applications for manufacturing is available here: 
+The project can be deployed for numerous enterprise applications even though this iteration is for health-care use case. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed. For example, a use case of the proect for manufacturing use case is available here: 
 
 To deploy for other applications in industrial settings, the Solution Engineer must first create a Pinecone databases that warehouses the vector embeddings of the dataset of the desired application. Infograps detailing how the solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
 
@@ -148,6 +141,10 @@ To deploy for other applications in industrial settings, the Solution Engineer m
 ---
 
 #### Setting up the project locally
+The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
+
+
+OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vector database. 
 This project has been developed using VSCode on a Windows 10 based enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
 
 ---
@@ -206,6 +203,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
