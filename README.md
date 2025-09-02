@@ -197,9 +197,11 @@ OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embedd
 #### On Prem-Deployment
 After deploying the solution with **docker-compose up --build** command, major front-end components of the projects (Streamlit, Prometheus & Grafana) will be available at the following URLs:
 
-<ins>**Streamlit**</ins> will be available at http://localhost:8501/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
-<ins>**Prometheus**</ins> will be available at http://localhost:9090/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
-<ins>**Grafana**</ins> will be available at http://localhost:3006/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
+- <ins>**Streamlit**</ins> will be available at http://localhost:8501/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
+  
+- <ins>**Prometheus**</ins> will be available at http://localhost:9090/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
+  
+- <ins>**Grafana**</ins> will be available at http://localhost:3006/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
 
 #### Cloud Deployment
 For production grade deployments, a dockerized version of the project should be created by the Solution Architect and stored in the enterprise Docker Hub. Other alternatives such as Gitub Containers or AWS ECR (Elastic Container Registry) can also be considerered. 
@@ -246,6 +248,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
