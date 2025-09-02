@@ -131,10 +131,12 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 # How to Deploy the Project for Healthcare and other Enterprise Applications
 
-The project can be deployed for numerous other enterprise applications even though this iteration is for health-care use case. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed to reflect the intended use case data. For example, a use case of the proect for manufacturing use case is available here: 
+The project can be deployed for numerous other enterprise applications even though this iteration is for health-care use case. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed to reflect the intended use case data.  For example, a use case of the proect for manufacturing use case is available here:
+
+If the Solution Architect does not have access keys to a particular Pinecone database, the Solution Architect can just create a new index on Pinecone, and then warehouse the vector embeddings of the new dataset on the newly created Pinecone index.
 
 ### Create Pinecone Vector Database
-To deploy for other applications in enterprise settings, the Solution Engineer must first create a Pinecone database that warehouses the vector embeddings of the dataset of the desired application. Infographs detailing how the Solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
+To deploy the solution for other applications in enterprise settings, the Solution Engineer must first create a Pinecone database that warehouses the vector embeddings of the dataset of the desired application. Infographs detailing how the Solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
 
 ---
 
@@ -229,6 +231,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
