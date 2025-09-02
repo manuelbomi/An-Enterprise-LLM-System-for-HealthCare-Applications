@@ -66,7 +66,6 @@ The data warehoused in the Pinecone Vector database is an enterprise dataset sin
 ---
 
 
-
 ### Streamlit Front End
 The Streamlit front end can be used for:
 
@@ -75,9 +74,9 @@ The Streamlit front end can be used for:
 * Displaying the result of the users' queries.
 
 ### Montoring System Performance with Prometheus and Grafana
-Prometheus timeseries database is used to scrape important system metrics such as 
+Prometheus timeseries database is used to scrape important system metrics such as: 
 
-##### Latency
+##### Query Latencies
 
 *  upload_latency_seconds → upload time
 
@@ -87,7 +86,7 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 *  llm_latency_seconds → GPT generation only
 
-  ##### Failures
+  ##### File/Data Upload Failures
 
 *  upload_failures_total
 
@@ -197,6 +196,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
