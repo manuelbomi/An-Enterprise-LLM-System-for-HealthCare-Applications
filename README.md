@@ -117,26 +117,25 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 ### How to Deploy the Project for Healthcare and other Enterprise Applications
 
-The project can be deployed for numerous enterprise applications even though this iteration is for health-care use case. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed. For example, a use case of the proect for manufacturing use case is available here: 
+The project can be deployed for numerous other enterprise applications even though this iteration is for health-care use case. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed to reflect the intended use case data. For example, a use case of the proect for manufacturing use case is available here: 
 
 To deploy for other applications in industrial settings, the Solution Engineer must first create a Pinecone databases that warehouses the vector embeddings of the dataset of the desired application. Infograps detailing how the solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
 
 
 ---
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c38337cf-0662-4675-bc4f-a9b95a17a1c8" />
-
----
-
+#### Create a new index on Pinecone
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9795a732-4745-457a-84c3-215e06007a1d" />
 
 ---
-
+#### Click on Customs settings and set the vector length to 1536. (1536 is the OpenAI default vector length for most of OpenAI data embeddings)
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d75d5dd2-546c-450e-818f-275e534413a1" />
 
 ---
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7116f7de-58c6-4eb5-aa99-97e5b0587eae" />
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c38337cf-0662-4675-bc4f-a9b95a17a1c8" />
 
 ---
 
@@ -203,6 +202,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
