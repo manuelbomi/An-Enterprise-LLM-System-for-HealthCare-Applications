@@ -160,7 +160,7 @@ As mentioned earlier, to be able to deploy the solution for other applications i
 
 
 ### Setting up the project for On-Prem or Cloud Deployments
-This project has been developed using VSCode on a Windows 10 enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
+This project has been developed using VSCode on a Windows 10 enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to reliably deploy the application. The project structure on VSCode can be set up as shown below: 
 
 ---
 
@@ -231,6 +231,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
