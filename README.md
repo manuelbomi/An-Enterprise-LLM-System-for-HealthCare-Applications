@@ -127,7 +127,7 @@ To deploy for other applications in industrial settings, the Solution Engineer m
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9795a732-4745-457a-84c3-215e06007a1d" />
 
 ---
-#### Click on Customs settings and set the vector length to 1536. (1536 is the OpenAI default vector length for most of OpenAI data embeddings)
+#### Click on Customs settings and set the vector dimension to 1536. (1536 is the OpenAI default vector length for most of OpenAI data embedding models)
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d75d5dd2-546c-450e-818f-275e534413a1" />
 
 ---
@@ -202,6 +202,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
