@@ -148,13 +148,20 @@ To deploy for other applications in industrial settings, the Solution Engineer m
 
 
 ### Setting up the project for On-Prem or Cloud Deployments
-This project has been developed using VSCode on a Windows 10 based enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
+This project has been developed using VSCode on a Windows 10 enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
 
 ---
 
 <img width="201" height="426" alt="Image" src="https://github.com/user-attachments/assets/c01b744a-9d89-4db4-aa8d-c881d2588524" />
 
+
+
+To deploy the project, the Solution Engineer must clone the project from the Github repository here:    
+
+A variant of the deployment for manufacturing use case can also be cloned from here: 
+
 ---
+#### Example of the main.py running on VSCode
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4ede62a2-7903-43f0-b916-a4dc732de390" />
 
 ---
@@ -214,6 +221,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
