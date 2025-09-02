@@ -4,7 +4,8 @@ We present an enterprise large language model  (LLM) system that could be deploy
 
 ### The system is composed of the following core components:
 
-**LangChain** – Manages orchestration and workflow across the system components.
+<ins>**LangChain**</ins> – Manages orchestration and workflow across the system components.
+
 
 **OpenAIEmbeddings** – Converts enterprise healthcare data into high-dimensional vector representations.
 
@@ -228,6 +229,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
