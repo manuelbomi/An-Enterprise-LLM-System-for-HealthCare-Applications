@@ -114,8 +114,8 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 
 
-===========================================================================================
-===========================================================================================
+=========================================================================================
+
 
 
 # How to Deploy the Project for Healthcare and other Enterprise Applications
@@ -214,6 +214,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
