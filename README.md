@@ -114,7 +114,7 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 
 
-=========================================================================================
+
 
 
 
@@ -123,7 +123,7 @@ Prometheus timeseries database is used to scrape important system metrics such a
 The project can be deployed for numerous other enterprise applications even though this iteration is for health-care use case. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed to reflect the intended use case data. For example, a use case of the proect for manufacturing use case is available here: 
 
 ### Create Pinecone Vector Database
-To deploy for other applications in industrial settings, the Solution Engineer must first create a Pinecone databases that warehouses the vector embeddings of the dataset of the desired application. Infograps detailing how the solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
+To deploy for other applications in industrial settings, the Solution Engineer must first create a Pinecone databases that warehouses the vector embeddings of the dataset of the desired application. Infographs detailing how the solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
 
 
 ---
@@ -214,6 +214,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
