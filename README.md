@@ -167,8 +167,8 @@ This project has been developed using VSCode on a Windows 10 enterprise system e
 ---
 
 <img width="201" height="426" alt="Image" src="https://github.com/user-attachments/assets/c01b744a-9d89-4db4-aa8d-c881d2588524" />
----
 
+---
 
 
 To deploy the project, the Solution Engineer or Arcitect must clone the project from the Github repository here:  https://github.com/manuelbomi/An-Enterprise-LLM-System-for-HealthCare-Applications.git  
@@ -246,6 +246,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
