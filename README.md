@@ -123,10 +123,10 @@ Prometheus timeseries database is used to scrape important system metrics such a
 The project can be deployed for numerous other enterprise applications even though this iteration is for health-care use case. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed to reflect the intended use case data. For example, a use case of the proect for manufacturing use case is available here: 
 
 ### Create Pinecone Vector Database
-To deploy for other applications in industrial settings, the Solution Engineer must first create a Pinecone databases that warehouses the vector embeddings of the dataset of the desired application. Infographs detailing how the solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
-
+To deploy for other applications in enterprise settings, the Solution Engineer must first create a Pinecone database that warehouses the vector embeddings of the dataset of the desired application. Infographs detailing how the Solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
 
 ---
+
 #### Create a new index on Pinecone
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9795a732-4745-457a-84c3-215e06007a1d" />
 
@@ -146,7 +146,6 @@ To deploy for other applications in industrial settings, the Solution Engineer m
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c38337cf-0662-4675-bc4f-a9b95a17a1c8" />
 
 
-
 ### Setting up the project for On-Prem or Cloud Deployments
 This project has been developed using VSCode on a Windows 10 enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
 
@@ -156,7 +155,7 @@ This project has been developed using VSCode on a Windows 10 enterprise system e
 
 
 
-To deploy the project, the Solution Engineer must clone the project from the Github repository here:    
+To deploy the project, the Solution Engineer must clone the project from the Github repository here:  https://github.com/manuelbomi/An-Enterprise-LLM-System-for-HealthCare-Applications.git  
 
 A variant of the deployment for manufacturing use case can also be cloned from here: 
 
@@ -166,31 +165,30 @@ A variant of the deployment for manufacturing use case can also be cloned from h
 
 ---
 
-The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
+After cloning, the project can be run using **docker-compose up --build** . The complete system (Streamlit + Prometheus + Grafana) should then be available on Docker. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the LLM system with the Pinecone vector database. 
 
 
 OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vector database. 
 
 
-
-
 ---
 > [!IMPORTANT]
-> ### Docker must be avaialble and running on the local system. 
+> ### Docker must be available and running on the local system before the **docker-compose up --build** command
 > ### Virtual environment should be created for the project, and it must be activated prior to running the project.
 > ### The .env file must be on the same directory as the main.py. The .env file must contain the Pinecone API key, the OpenAI API key, the Pinecone Environment, and Pinecone Index Name
 > ### The .gitignore must be in the root directory and it must contain the virtual environmnet name and the .env
 
 ---
 
-
-
 ### Scaling Up for Enterprise Applications
-#### Callable Functions
+#### Using Callable Functions
+The Enterprise Architect may desire to deploy the system for other use cases in the enterprise. It will be observed that many important segments of the code in the main.py are developed as callable functions. Using callable functions will enable the Solution or Enterprise Architect to easily deploy the system for other applications. Also, using callable functions is fundamental to good MLOps and CI/CD pratices since adjuastement can easily be made. Also, productionising will be easy and robust after any adjustment.  
 
-#### ZenML (MLOps)
+#### Using ZenML or Airflow for MLOps
+Orcestration tools such as ZenML or Airflow can be used together with CI/CD tools such as Github Actions. Using ZenML or Airflow will aid MLOps strategies across the enterprise. 
 
 #### Kubeflow for deploying on Kubernetes 
+As usesrs of the system increases, there may be a need to scale up the number of Kubernetes pods and Docker nodes that are used in production. Using tools such as Kubeflow as orchestrating tool will enable such scaling up to be easily acheived. This will lead to a very reactive and robust system that seamlessly serves its enterprise objectives.   
 
 
 
@@ -206,8 +204,8 @@ Thank you for reading through
 ### **AUTHOR'S BACKGROUND**
 ### Author's Name:  Emmanuel Oyekanlu
 ```
-Skillset:   I have experience spanning several years in developing scalable enterprise data pipelines,
-data science applications, enterprise solution architecture, architecting enterprise systems data and AI applications,
+Skillset:   I have experience spanning several years in data science, developing scalable enterprise data pipelines,
+enterprise solution architecture, architecting enterprise systems data and AI applications,
 software and AI solution design and deployments, data engineering, high performance computing (GPU, CUDA), machine learning,
 NLP and LLM applications as well as deploying scalable solutions (apps) on-prem and in the cloud.
 
@@ -220,7 +218,8 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
->>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
+
 
 
 
