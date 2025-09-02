@@ -171,7 +171,7 @@ This project has been developed using VSCode on a Windows 10 enterprise system e
 ---
 
 
-To deploy the project, the Solution Engineer or Arcitect must clone the project from the Github repository here:  https://github.com/manuelbomi/An-Enterprise-LLM-System-for-HealthCare-Applications.git  
+To deploy the project, the Solution Engineer or Architect must clone the project from the Github repository here:  https://github.com/manuelbomi/An-Enterprise-LLM-System-for-HealthCare-Applications.git  
 
 A variant of the deployment for manufacturing use case can also be cloned from here: 
 
@@ -246,6 +246,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
