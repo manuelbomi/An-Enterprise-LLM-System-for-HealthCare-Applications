@@ -114,9 +114,19 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 ---
 
-### How to Deploy the Project in Enterprise Settings
-
 The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker network. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the local system with the Pinecone vector database. 
+
+
+OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vector database. 
+
+
+
+
+### How to Deploy for Enterprise Applications
+
+The project can be deployed for numerous enterprise applications even though this iteration is for health-care uses. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed. For example, a use case of the same applications for manufacturing is available here: 
+
+To deploy for other applications in industrial settings, the Solution Engineer must first create a Pinecone databases that warehouses the vector embeddings of the dataset of the desired application. Infograps detailing how the solution Engineer may set up a free instance of the Pinecone vector database are provided below: 
 
 
 ---
@@ -137,17 +147,6 @@ The complete system (Streamlit + Prometheus + Grafana) is deployed on a Docker n
 
 ---
 
-
-OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Landchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vc=ector database. 
-
-
-
-### How to Deploy for Enterprise Applications
-
-The project can be deployed for numerous enterprise applications even though this iteration is for health-care uses. To deploy for other applications, only the enterprise dataset in the Pinecone vector database should be changed. For example, a use case of the same applications for manufacturing is available here: 
-
-To deploy for other applications in industrial settings, the Solution Engineer must first create a Pinecone databases that warehouses the vector embeddings of the dataset of the desired application. An infograph tutorial on how to set up a free instance of the Pinecone vector database is available here: 
-
 #### Setting up the project locally
 This project has been developed using VSCode on a Windows 10 based enterprise system equipped with GeForce 3070 GPU. Without loss of generality, other types of commodity computers with other variants of operating systems can be used to deploy the application. The project structure on VSCode can be set up as shown below: 
 
@@ -158,6 +157,15 @@ This project has been developed using VSCode on a Windows 10 based enterprise sy
 ---
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4ede62a2-7903-43f0-b916-a4dc732de390" />
 
+---
+
+---
+> [!IMPORTANT]
+> ### In this discourse, we have shown a method by which some GenAI models (such as: llama3.2, deepseek-r1 and gemma3 etc) can be installed <ins>on-prem</ins> using Docker. The same approach could be adopted for <ins>cloud-based</ins> workflow deployments such as when using Linux on an EC2 instance on AWS to deploy GenAI models.
+> ### In our approach, the user may use the docker-installed GenAI models online or offline without the Internet.
+> ### Also,
+> ### Outputs of the models' coding tasks can also be obtained from some of the inforgraphs below.
+> ### We did not advocate for the usage of one model over the other in this discourse since usage requirements and/or needs could vary with different enterprise settings or requirements.
 ---
 
 
@@ -198,6 +206,7 @@ Github:  https://github.com/manuelbomi
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
 >>>>>>> 64a231af6d953b967a93a9c3dc4b5f052de76119
+
 
 
 
