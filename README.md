@@ -22,7 +22,7 @@ Open source <ins>**University of Maryland Health System**</ins> data set are use
 We also discuss how an Enterprise Architect may work alongside the Solution Architect to use MLOps (machine learning operations) best practices to scale up the system in an enterprise setting using MLOps and CI/CD orchestration tools such as ZenML, Kubeflow, Airflow and Kubernetes. 
 
 ### System Architecture 
-The high-level system architecture and the system front end are displayed in the figures below:
+The high-level system architecture and the system front end is shown in the figures below:
 
 ---
 
@@ -250,6 +250,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
