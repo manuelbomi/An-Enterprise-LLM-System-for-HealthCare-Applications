@@ -212,7 +212,7 @@ The solution can then be deployed via a .github/workflow yaml jobs onto a cloud 
 
 ### Scaling Up for Enterprise Applications
 #### Using Callable Functions
-The Enterprise Architect may desire to deploy the system for other use cases in the enterprise. It will be observed that many important segments of the code in the main.py are developed as callable functions. Using callable functions will enable the Solution or Enterprise Architect to easily deploy the system for other applications. Also, using callable functions is fundamental to good MLOps and CI/CD pratices since adjuastement can easily be made. Also, productionising will be easy and robust after any adjustment.  
+The Enterprise Architect may desire to deploy the system for other use cases in the enterprise. It is observable that a significant portion of the code in main.py is encapsulated within callable functions. Using callable functions will enable the Solution or Enterprise Architect to easily deploy the system for other applications. Also, using callable functions is fundamental to good MLOps and CI/CD pratices. With callable functions, adjustements or adding new features to the project can easily be accomplished. Also, productionising the system will be easy and robust after any adjustment or new feature addition.  
 
 #### Using ZenML or Airflow for MLOps
 Orcestration tools such as ZenML or Airflow can be used together with CI/CD tools such as Github Actions. Using ZenML or Airflow will aid MLOps strategies across the enterprise. 
@@ -248,6 +248,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
