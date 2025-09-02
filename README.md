@@ -2,7 +2,17 @@
 
 We present an enterprise large language model  (LLM) system that could be deployed by healthcare practitioners for knowledge discovery, project assistance, and  healthcare topic aggregation. The LLM system features a user interface (UI) that is similar to the ChatGPT UI through which healthcare professionals can interact with, and query their own data warehoused as vector embeddings in a vector database (Pinecone). 
 
-The system imploy the use of: Langchain, OpenAIEmbeddings, an LLM model (**gpt-4**),  and Pinecone vector database to convert enterprise healthcare data into vector embeddings using OpenAIEmbeddings. The vector embeddings are stored in a Pinecone Cloud vector database. Streamlit is used to provide a friendly UI through which healthcare practitioners can interact with their vectorised enterprise datasets. 
+### The system is composed of the following core components:
+
+LangChain – Manages orchestration and workflow across the system components.
+
+OpenAIEmbeddings – Converts enterprise healthcare data into high-dimensional vector representations.
+
+GPT-4 (LLM) – Provides reasoning, natural language understanding, and advanced query handling.
+
+Pinecone Vector Database – Stores and indexes embeddings in the cloud to enable efficient similarity search and retrieval.
+
+Streamlit User Interface – Delivers an interactive, user-friendly frontend through which healthcare practitioners can query and analyze their vectorized enterprise datasets.
 
 Prometheus time series database and Grafana are used as overall system performance monitoring tools. 
 
@@ -218,6 +228,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
