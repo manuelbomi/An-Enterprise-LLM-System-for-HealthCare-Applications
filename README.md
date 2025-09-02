@@ -168,30 +168,37 @@ This project has been developed using VSCode on a Windows 10 enterprise system e
 
 
 
-To deploy the project, the Solution Engineer must clone the project from the Github repository here:  https://github.com/manuelbomi/An-Enterprise-LLM-System-for-HealthCare-Applications.git  
+To deploy the project, the Solution Engineer or Arcitect must clone the project from the Github repository here:  https://github.com/manuelbomi/An-Enterprise-LLM-System-for-HealthCare-Applications.git  
 
 A variant of the deployment for manufacturing use case can also be cloned from here: 
 
 ---
 #### Example of the main.py running on VSCode
+After cloning, the project can be run using **docker-compose up --build** . The complete system (Streamlit + Prometheus + Grafana) should then be available on Docker. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the LLM system with the Pinecone vector database. 
+
+
+OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vector database. An example of the project back end running on VSCode is shown in the figure below:
+
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4ede62a2-7903-43f0-b916-a4dc732de390" />
 
 ---
 
-After cloning, the project can be run using **docker-compose up --build** . The complete system (Streamlit + Prometheus + Grafana) should then be available on Docker. The Pinecone database is deployed on Pinecone cloud at [www.pinecone.io](https://app.pinecone.io). The Pinecone API key and the Pinecone Environment keys are used to connect the LLM system with the Pinecone vector database. 
-
-
-OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPIEmbedding and the vectorized healthcare data to the Pinecone vector database. 
-
-
----
 > [!IMPORTANT]
-> ### Docker must be available and running on the local system before the **docker-compose up --build** command
-> ### Virtual environment should be created for the project, and it must be activated prior to running the project.
+> ### To run the project successfully, Docker must be available and running on the local system before the **docker-compose up --build** command
+> ### Virtual environment should be created on VSCode for the project, and it must be activated prior to running the project.
 > ### The .env file must be on the same directory as the main.py. The .env file must contain the Pinecone API key, the OpenAI API key, the Pinecone Environment, and Pinecone Index Name
-> ### The .gitignore must be in the root directory and it must contain the virtual environmnet name and the .env
+> ### The .gitignore must be in the root directory and it must contain the virtual environmnet name and the .env so that when the Solution Architect pushes the solution onto Github to be deployed, the secrets in the .env file and the virtual environment will not be pushed. 
 
 ---
+
+#### On Prem-Deployment
+After deploying the solution with **docker-compose up --build** command, the major front-end components of the projects (Streamlit, Prometheus & Grafana) will be available at the following URLs:
+
+Streamlit will be available at http://localhost:8501/  or any other port or URL that the Solution Architect designates in the docker-compose.yml file
+
+#### Cloud Deployment
+
+
 
 ### Scaling Up for Enterprise Applications
 #### Using Callable Functions
@@ -231,6 +238,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
