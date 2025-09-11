@@ -230,7 +230,7 @@ As usesrs of the system increases, there may be a need to scale up the number of
 
 
 --
-Thank you for reading through
+Thank you for reading 
 
 ---
 ### **AUTHOR'S BACKGROUND**
@@ -250,6 +250,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
