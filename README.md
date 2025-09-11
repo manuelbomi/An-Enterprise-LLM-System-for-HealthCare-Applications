@@ -30,8 +30,6 @@ The high-level system architecture and the system front end is shown in the figu
 
 ---
 
----
-
 > [!NOTE]
 > ### Free Online Usage of the App
 > ### *Streamlit Front End*
@@ -272,6 +270,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
