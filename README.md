@@ -29,6 +29,28 @@ The high-level system architecture and the system front end is shown in the figu
 <img width="521" height="301" alt="Image" src="https://github.com/user-attachments/assets/695c1c01-95b5-4657-9b93-7d274248e7a6" />
 
 ---
+
+---
+
+> [!NOTE]
+> ### Free Online Usage of the App
+> ### *Streamlit Front End*
+> Interested Users can navigate to  *https://app.emmanueloyekanluprojects.com/* to interract with a manufacturing/business analysis variant of the app. The app can answer questions relating to *University of Maryland Health System, GE Vernova and GE Aerospace*. These use cases were selected at random, and their freely available data embeddings are stored in Pinecone.
+> 
+> Users can upload their own data and then query the system.
+> 
+> Although, the app was designed to upload and embed various type of enterprise data, but due to cost implication, only pdf are currently allowed at the backend (see the code).
+> 
+> The online app is currently hosted on Azure Kubernetes Cluster (AKS).
+> 
+> ### System Monitoring Tools
+> The app was hosted alongside its monitoring tools. Interested readers can observe the monitoring tools at: https://grafana.emmanueloyekanluprojects.com/login (for Grafana) ; and      https://prometheus.emmanueloyekanluprojects.com/query  (for Prometheus)
+---
+
+
+
+
+
 ### System Streamlit Front-End
 
 Examples of how the system provide answers via the Streamlit front end are provided in the series of figures below:
@@ -250,6 +272,7 @@ Github:  https://github.com/manuelbomi
 
 ```
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
 
 
 
